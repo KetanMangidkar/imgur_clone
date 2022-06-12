@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background: rgb(23, 21, 68);
+}
+
+#navbar {
+    background-color: rgb(23, 21, 68);
+    position: fixed;
+    top: -50px;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    z-index: 100
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navbar a:hover {
+    background-color: grey;
+    color: black;
+}
+
+#mostviral {
+    margin-top: 20px;
+    margin-left: 40px;
+    border: none;
+    background: rgb(23, 21, 68);
+    color: white;
+
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#input{
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: rgb(69, 68, 105);
+    border: none;
+}
+
+/* Style the submit button */
+.search {
+    float: left;
+    width: 10%;
+    padding: 10px;
+
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    /* Prevent double borders */
+    cursor: pointer;
+    border: none;
+
+}
+
+ .search:hover {
+    background: rgb(69, 68, 105);
+}
+
+
+
+.select {
+    width: 70%;
+
+    display: flex;
+
+}
+
+.div1 {
+    width: 20%;
+}
+
+.div2 {
+    width: 80%;
+    margin-left: 200px;
+    margin-top: 14px;
+}
+
+.uh {
+
+    width: 300px;
+    position: absolute;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: 650px;
+    font-family: sans-serif;
+    color: rgb(174, 216, 234);
+}
+
+#box {
+    width: 100%;
+    height: 100%;
+}
+
+#box1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-gap: 3%;
+}
+
+.imgdiv {
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+img {
+    width: 100%;
+    height: 90%;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+}
